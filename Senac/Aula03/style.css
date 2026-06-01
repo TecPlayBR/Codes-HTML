@@ -1,0 +1,78 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+}
+#containerTopo{
+    width: 980px; /*Largura*/
+    height: 150px; /*Altura*/
+   /*background-color: brown; Cor de fundo*/
+    margin:auto; /*Centralizado*/
+}
+#logo{
+    width: 200px;
+    height: 150px;
+   /*background-color: green;*/
+    float: left;
+}
+#logo img{
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+#menu{
+    width: 780px;
+    height: 75px;
+   /*background-color: purple;*/
+    float: right;
+    text-align: center;
+    word-spacing: 5px;
+    color: lightblue;
+    font-size: 16px;
+    padding-top: 70px;
+}
+#menu a{
+    text-decoration: none;
+    color: sandybrown;
+}
+#menu a:hover{
+    color: rgb(247, 0, 255);
+}
+#banner{
+    width: 800px;
+    height: 300px;
+    /*background-color: blue;*/
+    margin: auto;
+    margin-top: 50px;
+}
+#banner img{
+    width: 800px;
+}
+#containerBaixo{
+    width: 980px;
+    height: 600px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 125px;
+}
+#bannerLeft{
+    width: 450px;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+    margin-top: 100px;
+}
+#bannerRight{
+    width: 450px;
+    height: 400px;
+    background-color: red;
+    float: right;
+    margin-top: 100px;
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+}
